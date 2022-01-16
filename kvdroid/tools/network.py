@@ -3,7 +3,7 @@ from kvdroid import activity
 
 
 def network_status():
-    
+
     return mobile_status() or wifi_status()
             
 def wifi_status():
